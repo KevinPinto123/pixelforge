@@ -1,0 +1,28 @@
+{
+  "name": "@pixelforge/tools",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Orchestrator determinista pixel-art: toolchain pf-01-target..pf-06-render, comparador cellMatchPct (modo A) y loop-runner puntuado por faceta. SPEC-PIXELFORGE-ORCHESTRATOR.md §3/§5/§6.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@pixelforge/postprocess": "workspace:*",
+    "@pixelforge/providers": "workspace:*",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0"
+  }
+}

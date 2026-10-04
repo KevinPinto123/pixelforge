@@ -1,0 +1,29 @@
+{
+  "name": "pixelforge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Plataforma interna de produccion de pixel art: editor Electron + MCP server + backend/orchestrator",
+  "engines": {
+    "node": ">=22.13.0",
+    "pnpm": ">=9"
+  },
+  "packageManager": "pnpm@11.5.0",
+  "scripts": {
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "eslint .",
+    "test": "pnpm -r --if-present test",
+    "dev:backend": "pnpm --filter @pixelforge/backend dev",
+    "dev:editor": "pnpm --filter @pixelforge/editor dev"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.0",
+    "eslint": "^9.30.0",
+    "eslint-config-prettier": "^10.1.0",
+    "globals": "^15.15.0",
+    "prettier": "^3.6.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.35.0",
+    "vitest": "^3.2.4"
+  }
+}

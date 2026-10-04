@@ -1,0 +1,86 @@
+{
+  "$schema": "vibecoder-palette/v1",
+  "name": "VIBECODER Master",
+  "count": 32,
+  "note": "PALETA MAESTRA — fuente de verdad de color. Consolida PixelForge + office-engine/rooms.js + 3 extensiones firmadas (rojo Vale, azul hoodie Vale, verdes Beto). Candado ART-DIRECTIVE §6. Todo sprite/prop nuevo sale de aqui. Luz canonica arriba-izquierda; rampas de 3-4 tonos por material. Espejo en codigo: office-engine/palette-master.js. Export: PALETTE-MASTER.gpl (GIMP/Aseprite) + PALETTE-MASTER.pixelforge.json (cargable en el editor).",
+  "colors": [
+    { "hex": "#1b1e2b", "name": "ink",           "rgb": [27, 30, 43],   "family": "ui" },
+    { "hex": "#3a3f52", "name": "shadow_cool",   "rgb": [58, 63, 82],   "family": "ui" },
+    { "hex": "#c0bfbc", "name": "grey",          "rgb": [192, 191, 188], "family": "ui" },
+    { "hex": "#e6e8f0", "name": "white",         "rgb": [230, 232, 240], "family": "ui" },
+
+    { "hex": "#7a5230", "name": "skin_deep",     "rgb": [122, 82, 48],  "family": "skin" },
+    { "hex": "#986a44", "name": "skin_shadow",   "rgb": [152, 106, 68], "family": "skin" },
+    { "hex": "#c98d54", "name": "skin_mid",      "rgb": [201, 141, 84], "family": "skin" },
+    { "hex": "#e0ac69", "name": "skin_light",    "rgb": [224, 172, 105], "family": "skin" },
+
+    { "hex": "#5b3fd6", "name": "violet_shadow", "rgb": [91, 63, 214],  "family": "cloth", "note": "hoodie Tavo sombra" },
+    { "hex": "#7c5cff", "name": "violet",        "rgb": [124, 92, 255], "family": "cloth", "note": "hoodie Tavo / acento marca" },
+    { "hex": "#2a5db0", "name": "blue_shadow",   "rgb": [42, 93, 176],  "family": "cloth", "note": "hoodie Vale / denim sombra [ext. firmada]" },
+    { "hex": "#3584e4", "name": "blue",          "rgb": [53, 132, 228], "family": "cloth", "note": "hoodie Vale / denim [ext. firmada]" },
+    { "hex": "#a01820", "name": "red_shadow",    "rgb": [160, 24, 32],  "family": "cloth", "note": "pelo/sneakers Vale sombra [ext. firmada]" },
+    { "hex": "#e01b24", "name": "red",           "rgb": [224, 27, 36],  "family": "cloth", "note": "pelo/sneakers Vale [ext. firmada]" },
+    { "hex": "#2f7d4f", "name": "green_dark",    "rgb": [47, 125, 79],  "family": "cloth", "note": "verde militar Beto / follaje [ext. firmada]" },
+    { "hex": "#1f9e57", "name": "green",         "rgb": [31, 158, 87],  "family": "cloth", "note": "verde Beto / follaje [ext. firmada]" },
+    { "hex": "#33d17a", "name": "green_light",   "rgb": [51, 209, 122], "family": "cloth", "note": "verde luz / follaje highlight [ext. firmada]" },
+    { "hex": "#6d4b5a", "name": "mauve_fabric",  "rgb": [109, 75, 90],  "family": "cloth", "note": "tapizado: sofa / ropa de cama" },
+
+    { "hex": "#6e4a2f", "name": "wood_deep",     "rgb": [110, 74, 47],  "family": "wood" },
+    { "hex": "#7a5a34", "name": "wood_shadow",   "rgb": [122, 90, 52],  "family": "wood", "note": "estante / librero" },
+    { "hex": "#8a6d3b", "name": "wood_mid",      "rgb": [138, 109, 59], "family": "wood", "note": "escritorio / marco de cama" },
+    { "hex": "#b58b4e", "name": "wood_light",    "rgb": [181, 139, 78], "family": "wood" },
+
+    { "hex": "#1c2a3a", "name": "metal_darkest", "rgb": [28, 42, 58],   "family": "metal", "note": "carcasa monitor / pantalla apagada" },
+    { "hex": "#26303f", "name": "metal_dark",    "rgb": [38, 48, 63],   "family": "metal", "note": "server / torre parlante" },
+    { "hex": "#3a3a44", "name": "metal_neutral", "rgb": [58, 58, 68],   "family": "metal", "note": "silla / plastico neutro" },
+    { "hex": "#4a5060", "name": "metal_mid",     "rgb": [74, 80, 96],   "family": "metal", "note": "cafetera" },
+    { "hex": "#8fa0b3", "name": "metal_light",   "rgb": [143, 160, 179], "family": "metal", "note": "robot / aire / acero claro" },
+
+    { "hex": "#245a55", "name": "screen_edge",   "rgb": [36, 90, 85],   "family": "screen", "note": "borde de pantalla tenue" },
+    { "hex": "#6fd0c0", "name": "screen_glow",   "rgb": [111, 208, 192], "family": "screen", "note": "glow laptop/monitor (blend add en OVERLAY, no en sprite)" },
+    { "hex": "#b8f5e8", "name": "screen_bright", "rgb": [184, 245, 232], "family": "screen", "note": "pico de glow (frame bright)" },
+
+    { "hex": "#c9b458", "name": "gold",          "rgb": [201, 180, 88], "family": "accent", "note": "lampara / cono parlante / hype" },
+    { "hex": "#c95c4b", "name": "alert",         "rgb": [201, 92, 75],  "family": "accent", "note": "cartel / LED cafetera / alerta / deuda" }
+  ],
+  "ramps": {
+    "skin":   ["#7a5230", "#986a44", "#c98d54", "#e0ac69"],
+    "violet": ["#5b3fd6", "#7c5cff"],
+    "blue":   ["#2a5db0", "#3584e4"],
+    "red":    ["#a01820", "#e01b24"],
+    "green":  ["#2f7d4f", "#1f9e57", "#33d17a"],
+    "wood":   ["#6e4a2f", "#7a5a34", "#8a6d3b", "#b58b4e"],
+    "metal":  ["#1c2a3a", "#26303f", "#3a3a44", "#4a5060", "#8fa0b3"],
+    "screen": ["#245a55", "#6fd0c0", "#b8f5e8"],
+    "ui":     ["#1b1e2b", "#3a3f52", "#c0bfbc", "#e6e8f0"]
+  },
+  "prop_map": {
+    "note": "Clave de prop/atlas -> hex maestro. SNAP = cuantizado al maestro mas cercano al unificar.",
+    "desk": "#8a6d3b", "monitor": "#1c2a3a", "chair": "#3a3a44", "plant": "#2f7d4f",
+    "server": "#26303f", "sofa": "#6d4b5a", "shelf": "#7a5a34", "lamp": "#c9b458",
+    "sign": "#c95c4b", "robot": "#8fa0b3",
+    "cama_marco": "#8a6d3b", "cama_ropa": "#6d4b5a",
+    "parlante": "#26303f", "parlante_cono": "#c9b458",
+    "cafetera": "#4a5060", "cafetera_led": "#c95c4b",
+    "aire": "#8fa0b3", "aire_rejilla": "#8fa0b3",
+    "laptop": "#1c2a3a", "laptop_pant": "#6fd0c0"
+  },
+  "snaps": {
+    "note": "Valores previos de rooms.js/atlas cuantizados al maestro para tener UNA paleta.",
+    "parlante":     { "from": "#2b3340", "to": "#26303f" },
+    "aire":         { "from": "#9fb0c0", "to": "#8fa0b3" },
+    "aire_rejilla": { "from": "#7d8ea0", "to": "#8fa0b3" }
+  },
+  "sources": {
+    "pixelforge_base": ["#000000", "#ffffff", "#7c5cff", "#33d17a", "#f6d32d", "#e01b24", "#3584e4", "#986a44", "#1b1e2b", "#c0bfbc", "#ff7800", "#62a0ea"],
+    "pixelforge_dropped": {
+      "note": "De la PALETA base de PixelForge NO entran al maestro (redundantes / fuera de rampa). El editor ya carga el maestro completo via PALETTE-MASTER.pixelforge.json.",
+      "#000000": "usar ink #1b1e2b como negro de outline",
+      "#ffffff": "usar white #e6e8f0 (blanco-hueso, no puro)",
+      "#f6d32d": "amarillo puro -> usar gold #c9b458",
+      "#ff7800": "naranja -> usar alert #c95c4b o gold segun caso",
+      "#62a0ea": "azul claro -> derivar de blue #3584e4"
+    },
+    "extensions_signed": ["red (Vale)", "blue hoodie (Vale)", "greens (Beto)"]
+  }
+}

@@ -1,0 +1,9 @@
+packages:
+  - packages/*
+  - apps/*
+  - tools
+allowBuilds:
+  electron: true
+  electron-winstaller: false
+  esbuild: true
+  sharp: true

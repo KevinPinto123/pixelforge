@@ -1,0 +1,12 @@
+{
+  "name": "@pixelforge/postprocess",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "LocalPostProcessAdapter — SPEC-POSTPROCESS-PIXELART.md. alpha_cleanup -> quantize(OKLab) -> despeckle -> outline -> pad_crop -> validate.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}
