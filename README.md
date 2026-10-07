@@ -1,3 +1,9 @@
+> **Copia personal.** Este repositorio es una copia de
+> [GeorgeTech20/pixelforge](https://github.com/GeorgeTech20/pixelforge),
+> creada por Jorge Nureña y distribuida bajo licencia MIT.
+> El historial de commits y el archivo [`LICENSE`](LICENSE) originales se conservan sin cambios.
+> Todo el crédito del trabajo original es de su autor.
+
 # PixelForge
 
 Editor de pixel art mínimo, por capas y frames, hecho con React + Canvas 2D
